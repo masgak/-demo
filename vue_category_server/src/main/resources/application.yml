@@ -1,0 +1,17 @@
+server:
+  port: 8012
+
+
+spring:
+  datasource:
+    name:
+    url: jdbc:mysql://localhost:3306/usertest?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false
+    username: root
+    password: 123456
+  application:
+    name: service-category
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
+
